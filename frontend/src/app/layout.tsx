@@ -1,3 +1,4 @@
+import Head from "next/head"
 
 export const metadata = {
   title: 'Create Next App',
@@ -11,6 +12,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
+      <Head>
+        <link rel="shortcut icon" href="/favicon.png" type="image/x-icon" />
+      </Head>
       <body >{children}</body>
     </html>
   )
