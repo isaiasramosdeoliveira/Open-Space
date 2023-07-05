@@ -13,7 +13,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <Head>
-        <link rel="shortcut icon" href="/favicon.png" type="image/x-icon" />
+        <link rel="shortcut icon" href="/favicon.png" type="image/png" />
       </Head>
       <body >{children}</body>
     </html>
